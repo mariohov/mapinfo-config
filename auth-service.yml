@@ -19,7 +19,7 @@ security:
   user:
     password: password
   enable-csrf: false
-logging.level.org.springframework.security: DEBUG
+logging.level.org.springframework.security: info
 spring:
   profiles: development
   datasource:
